@@ -129,30 +129,6 @@ demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
-src/function.o: src/function.cpp.o
-.PHONY : src/function.o
-
-# target to build an object file
-src/function.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/function.cpp.o
-.PHONY : src/function.cpp.o
-
-src/function.i: src/function.cpp.i
-.PHONY : src/function.i
-
-# target to preprocess a source file
-src/function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/function.cpp.i
-.PHONY : src/function.cpp.i
-
-src/function.s: src/function.cpp.s
-.PHONY : src/function.s
-
-# target to generate assembly for a file
-src/function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/function.cpp.s
-.PHONY : src/function.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... demo"
-	@echo "... src/function.o"
-	@echo "... src/function.i"
-	@echo "... src/function.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

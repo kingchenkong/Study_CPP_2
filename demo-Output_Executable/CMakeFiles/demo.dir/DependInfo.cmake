@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/saw/Documents/SAW_2023/Code/Study_CPP_2/Study_CPP_2/demo-Output_Executable/src/function.cpp" "CMakeFiles/demo.dir/src/function.cpp.o" "gcc" "CMakeFiles/demo.dir/src/function.cpp.o.d"
   "/home/saw/Documents/SAW_2023/Code/Study_CPP_2/Study_CPP_2/demo-Output_Executable/src/main.cpp" "CMakeFiles/demo.dir/src/main.cpp.o" "gcc" "CMakeFiles/demo.dir/src/main.cpp.o.d"
   )
 

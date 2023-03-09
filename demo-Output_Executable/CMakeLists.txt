@@ -7,7 +7,7 @@ project(demo)
 # executable file name: ref to project 
 add_executable( ${PROJECT_NAME}  
     src/main.cpp 
-    src/function.cpp 
+    src/utils.h 
     src/Window.h
 )    
 

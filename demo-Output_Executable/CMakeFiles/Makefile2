@@ -81,12 +81,12 @@ clean: CMakeFiles/demo.dir/clean
 CMakeFiles/demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saw/Documents/SAW_2023/Code/Study_CPP_2/Study_CPP_2/demo-Output_Executable/CMakeFiles --progress-num=1,2,3 "Built target demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saw/Documents/SAW_2023/Code/Study_CPP_2/Study_CPP_2/demo-Output_Executable/CMakeFiles --progress-num=1,2 "Built target demo"
 .PHONY : CMakeFiles/demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/saw/Documents/SAW_2023/Code/Study_CPP_2/Study_CPP_2/demo-Output_Executable/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/saw/Documents/SAW_2023/Code/Study_CPP_2/Study_CPP_2/demo-Output_Executable/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/saw/Documents/SAW_2023/Code/Study_CPP_2/Study_CPP_2/demo-Output_Executable/CMakeFiles 0
 .PHONY : CMakeFiles/demo.dir/rule
